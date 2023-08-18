@@ -1,0 +1,14 @@
+#################Various Git Commands############################
+#If wanted to create new epository from Command Line
+-git init
+-git add filename.extension
+-git commit -m "commit msg"
+-git branch -M main
+-git remote add origin url_of_repo
+-git push -u origin main
+
+#If wanted to push into existing repository
+-git remote add origin url_of_repo
+-git branch -M main
+-git push -u origin main
+-git status (to check status)
