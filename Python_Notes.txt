@@ -1,0 +1,76 @@
+1.Python is High Level General Purpose Programming Language
+2.Python is Open Source Language
+3.Python is platform independent Language
+Downloading Python
+-------------------------
+https://www.python.org/downloads/ is official site to download Python
+-The default installation path is 'C:\Users\Admin\AppData\Local\Programs\Python\Python311'
+-Checking pyhton is installed using cmd just type 'pyhton' and hit enter
+
+------Ways to Run Python Code-----
+1.idle
+-We can run python code through IDLE (Python Shell). Is the ide provided by python. 
+2.CMD
+-We can run python code using windows cmd.
+-Open CMD type 'python' and hit enter
+-Then write python code
+-Usually idle and cmd works in same way. In both the ways we can not save python code or file.
+3.Notepad /Notepad ++
+-We can write a code in Notepad / Notepad ++ save that file as .py extension then we can run that file using CMD
+-open cmd navigate to location where file is saved , write 'python filename' and hit enter
+4.PyCharm
+-Preferred
+-Download from 'https://www.jetbrains.com/pycharm/download/?section=windows' . Community edition free/open source
+5.Eclipe (With PyDev plugin)
+
+---Comments in Python------
+-If we want to comment single line we can use # (Shortcut key ctr+/)
+-For Multiline commnets we can use """ comment """ or ''' comment ''' 
+
+---Python Keywords-----
+-Reserved words which we should not used for defining variable or anything etc.
+-To get list of keywords print(keyword.kwlist), will give list of keywords
+
+----Variables---
+1.Variable is nothing but a reserved memory location to store values
+2.Variables are used to store data
+3.Memory allocated when the values are stored in variables
+4.Every variable must have some type
+
+---Data Types----
+1.Text type: str
+2.Numeric types: int,float
+3.Sequence types:list,tuple
+4.Mapping type:dict
+5.Set types: set
+6.Boolean type: bool
+-Pyhton is Dynamically Typed Programming Language means while defining a variable we don't need to specify its Data Type , python will automatically
+assign type of data based on variable values
+-We can change value of variable also in python where in java we can't
+
+-----Operators-------
+-A symbol which will perform an operation between two or more variables
+-Types:
+1.Arithmetic Operators
+2.Relational Operators
+3.Logical Operators
+
+----Taking Input From User----
+-To take input from user we have input() function.
+-By defualt it will always consider string as input.
+-To convert integer data we need to convert string to integer using int method , for decimal numbers we need to use float.
+-The conversion is called as Type Conversion
+
+---Control Statements-----
+1.Conditional Statements
+a.if , b.if..else , c.elif
+2.Looping Statements
+a.while , b.for
+3.Jumping Statements
+a.break , b.continue
+
+
+--range() function in pyhton--
+1.range(10) -starting point 0 .... ending point 9 (n-1)
+2.range(1,10) -starting point 1,...ending point 9
+3.range(1,10,2) -starting point 1, ending point 10 , increment by 2
