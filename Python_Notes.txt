@@ -74,3 +74,20 @@ a.break , b.continue
 1.range(10) -starting point 0 .... ending point 9 (n-1)
 2.range(1,10) -starting point 1,...ending point 9
 3.range(1,10,2) -starting point 1, ending point 10 , increment by 2
+
+---Numbers & Strings---
+1.max() function: To find out maximum number from list of int or float values
+2.min() function: To find out minimum number from list of int or float values
+
+--Strings are immutable in python
+--Collections In Python--
+1.List
+2.Tuple
+3.Set
+4.Dictionary
+
+1.List:
+-A List is a collection which is ordered and changeable
+-In Python lists are written with square brackets [].
+-List is mutable
+
