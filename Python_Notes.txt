@@ -5,7 +5,7 @@ Downloading Python
 -------------------------
 https://www.python.org/downloads/ is official site to download Python
 -The default installation path is 'C:\Users\Admin\AppData\Local\Programs\Python\Python311'
--Checking pyhton is installed using cmd just type 'pyhton' and hit enter
+-Checking python is installed using cmd just type 'python' and hit enter
 
 ------Ways to Run Python Code-----
 1.idle
@@ -21,14 +21,14 @@ https://www.python.org/downloads/ is official site to download Python
 4.PyCharm
 -Preferred
 -Download from 'https://www.jetbrains.com/pycharm/download/?section=windows' . Community edition free/open source
-5.Eclipe (With PyDev plugin)
+5.Eclipse (With PyDev plugin)
 
 ---Comments in Python------
 -If we want to comment single line we can use # (Shortcut key ctr+/)
--For Multiline commnets we can use """ comment """ or ''' comment ''' 
+-For Multiline comments we can use """ comment """ or ''' comment '''
 
 ---Python Keywords-----
--Reserved words which we should not used for defining variable or anything etc.
+-Reserved words which we should not use for defining variable or anything etc.
 -To get list of keywords print(keyword.kwlist), will give list of keywords
 
 ----Variables---
@@ -44,7 +44,7 @@ https://www.python.org/downloads/ is official site to download Python
 4.Mapping type:dict
 5.Set types: set
 6.Boolean type: bool
--Pyhton is Dynamically Typed Programming Language means while defining a variable we don't need to specify its Data Type , python will automatically
+-Python is Dynamically Typed Programming Language means while defining a variable we don't need to specify its Data Type , python will automatically
 assign type of data based on variable values
 -We can change value of variable also in python where in java we can't
 
@@ -57,7 +57,7 @@ assign type of data based on variable values
 
 ----Taking Input From User----
 -To take input from user we have input() function.
--By defualt it will always consider string as input.
+-By default it will always consider string as input.
 -To convert integer data we need to convert string to integer using int method , for decimal numbers we need to use float.
 -The conversion is called as Type Conversion
 
@@ -70,7 +70,7 @@ a.while , b.for
 a.break , b.continue
 
 
---range() function in pyhton--
+--range() function in python--
 1.range(10) -starting point 0 .... ending point 9 (n-1)
 2.range(1,10) -starting point 1,...ending point 9
 3.range(1,10,2) -starting point 1, ending point 10 , increment by 2
@@ -90,4 +90,16 @@ a.break , b.continue
 -A List is a collection which is ordered and changeable
 -In Python lists are written with square brackets [].
 -List is mutable
+
+2.Tuple
+-A Tuple is a collection which is ordered and unchangeable
+-In Python Tuples are written with round brackets()
+-Tuple is immutable
+
+**Immutable means:
+1.We can not modify existing value
+2.We can not append new value
+3.We can not insert a new value
+4.We can not remove a value
+
 

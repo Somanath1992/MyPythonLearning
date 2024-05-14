@@ -101,3 +101,11 @@ list6 = ['a', 'b', 'c']
 list7 = [1, 2, 3]
 list6.extend(list7)
 print(list6)
+
+# Example 12: compare lists
+list8 = [10, 20, 30]
+list9 = [10, 20, 30]
+if list8 == list9:
+    print("lists are equal")
+else:
+    print("lists are not equal")
