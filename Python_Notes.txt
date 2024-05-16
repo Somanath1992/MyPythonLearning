@@ -102,4 +102,12 @@ a.break , b.continue
 3.We can not insert a new value
 4.We can not remove a value
 
+3.Set
+-A set is a collection which is unordered and un-indexed. In python sets are written with curly brackets { }
+-Set is mutable
+
+4.Dictionary
+-A Dictionary is a collection which is unordered, changeable (mutable) and indexed
+-In Python dictionaries are written with curly brackets { }, and they have keys and values.
+-Duplicate Keys are not allowed but values can be duplicate
 
