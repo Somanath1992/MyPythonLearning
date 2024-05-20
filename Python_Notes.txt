@@ -111,3 +111,57 @@ a.break , b.continue
 -In Python dictionaries are written with curly brackets { }, and they have keys and values.
 -Duplicate Keys are not allowed but values can be duplicate
 
+--Functions in Python (User Defined Functions)
+-It is a set of statements which will perform a task.
+
+--Global and Local Variables
+-The variables created outside of functions are called as Global Variables
+-The variables created inside of functions are called as Local Variables
+
+--We can pass 2 types of arguments/parameters to the function
+1. Positional arguments
+2.Keyword Arguments
+
+--Class Variables
+-Variables created inside class is called as Class Variables
+-To access Class variables inside method , we need to use self keyword
+
+-- Object Oriented Programming:
+1.Class
+2.Object
+3.Inheritance
+4.Polymorphism
+
+1.Class:
+-It is a collection of variables (attributes) & method (behavior)
+-A class is blueprint
+-It is a logical entity which does not occupy space in the memory
+
+2.Object:
+-It is an instance of class
+-It is a physical entity
+-It occupies space in memory
+-For one class we can create multiple objects
+-Objects are independent
+
+**Method**
+-Function created within the class is called as Method
+-Method will have default self parameter. Self is representing that method belongs to class.
+-If we want to create empty method we should use pass keyword
+-There are two types of method which can be created inside the class:
+1.Instance Method - We can call only through object
+2.Static Method-We can directly call using class
+- To create Static method, we need to use of @stacticmethod annotation
+
+** Method vs Constructor **
+Method:
+-We can give any name
+-It can return the values
+-Can take arguments/parameters
+-To call method we need to use an object
+
+Constructor:
+-Constructor name is fixed def __init__(self)
+-It will not return any value
+-Can also take arguments/values
+-Constructor will be called at the time of object creation itself
