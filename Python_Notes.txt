@@ -2,7 +2,7 @@
 2.Python is Open Source Language
 3.Python is platform independent Language
 
-Downloading Python
+*Downloading Python
 -------------------------
 https://www.python.org/downloads/ is official site to download Python
 -The default installation path is 'C:\Users\Admin\AppData\Local\Programs\Python\Python311'
