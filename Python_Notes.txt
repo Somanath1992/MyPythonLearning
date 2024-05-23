@@ -1,7 +1,8 @@
 1.Python is High Level General Purpose Programming Language
 2.Python is Open Source Language
 3.Python is platform independent Language
-Downloading Python
+
+**Downloading Python
 -------------------------
 https://www.python.org/downloads/ is official site to download Python
 -The default installation path is 'C:\Users\Admin\AppData\Local\Programs\Python\Python311'
@@ -187,3 +188,6 @@ D.Multiple
 
 ** If we have same method name in Parent and child class , child class method will be executed.If we want to
 execute parent class method then we need use super().method name to access method from superclass
+
+4.Polymorphism
+-Polymorphism in Python is the ability of one object to take on multiple forms
