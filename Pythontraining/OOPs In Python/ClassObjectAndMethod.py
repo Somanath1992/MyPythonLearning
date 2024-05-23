@@ -110,7 +110,49 @@ class MyClass6:
         return p + q
 
 
-mc6 = MyClass6()    # invoke constructor automatically
+mc6 = MyClass6()  # invoke constructor automatically
 mc6.m3()
 print(mc6.m4(10, 20))
 
+
+# Example 8: Parametrized constructor
+class MyClass7:
+    name = "Tim"
+
+    def __init__(self, name):
+        print(name)
+        print(self.name)
+
+
+mc7 = MyClass7("David")
+
+
+# Example 9: Scenario: Create Employee class, define constructor which will accept parameters, create method and
+# print values of contractor in method
+class Employee:
+    def __init__(self, EmpId, EmpName, EmpSalary):
+        self.EmpId = EmpId
+        self.EmpName = EmpName
+        self.EmpSalary = EmpSalary
+
+    def employee_data(self):
+        print(self.EmpId, self.EmpName, self.EmpSalary)
+
+
+emp = Employee(100, "Ray", 20000)
+emp.employee_data()
+
+
+# Example 10:
+class Employee1:
+    def __init__(self, eid, ename, sal):
+        self.eid = eid
+        self.ename = ename
+        self.sal = sal
+
+    def __str__(self):  # String constructor
+        return self.ename
+
+
+emp1 = Employee1(102, "Riya", 45000)
+print(emp1)

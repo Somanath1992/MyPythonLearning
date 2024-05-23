@@ -165,3 +165,22 @@ Constructor:
 -It will not return any value
 -Can also take arguments/values
 -Constructor will be called at the time of object creation itself
+*String constructor:
+-Apart from default constructor __init__(self) in python we have another constructor called string constructor
+-It can be written as __str__(self)
+-It can only return string values
+
+3.Inheritance:
+-Inheritance is the capability of one class to derive or inherit the properties from another class.
+-Inheritance helps code re-usability and avoid duplication of code
+*Types of Inheritance:
+A.Single
+-Inherit properties from a single parent class
+B.Multi Level
+-In multilevel inheritance, features of the base class and the derived class are further inherited into the new derived class.
+-This is similar to a relationship representing a child and a grandfather.
+C.Hierarchy
+-When more than one derived class are created from a single base this type of inheritance is called hierarchical inheritance.
+D.Multiple
+-When a class can be derived from more than one base class this type of inheritance is called multiple inheritances.
+-In multiple inheritances, all the features of the base classes are inherited into the derived class.
