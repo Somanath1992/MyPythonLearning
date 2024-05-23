@@ -185,3 +185,6 @@ C.Hierarchy
 D.Multiple
 -When a class can be derived from more than one base class this type of inheritance is called multiple inheritances.
 -In multiple inheritances, all the features of the base classes are inherited into the derived class.
+
+** If we have same method name in Parent and child class , child class method will be executed.If we want to
+execute parent class method then we need use super().method name to access method from superclass
