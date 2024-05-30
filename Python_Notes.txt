@@ -191,3 +191,17 @@ execute parent class method then we need use super().method name to access metho
 
 4.Polymorphism
 -Polymorphism in Python is the ability of one object to take on multiple forms
+*Types of Polymorphism:
+1.Method Overloading:
+-Method Overloading is an example of Compile time polymorphism.
+-In this, more than one method of the same class shares the same method name having different signatures.
+-Method overloading is used to add more to the behavior of methods and there is no need of more than one class for method overloading.
+-Python does not support method overloading.We may overload the methods but can only use the latest defined method.
+2.Method Overriding:
+-Method overriding is an example of run time polymorphism.
+-In this, the specific implementation of the method that is already provided by the parent class is provided by the child class.
+-It is used to change the behavior of existing methods and there is a need for at least two classes for method overriding.
+-In method overriding, inheritance always required as it is done between parent class(superclass) and child class(child class) methods.
+
+**Modules In Python:
+-Module is collection of Functions and Classes(Variables+Methods)
