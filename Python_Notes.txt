@@ -209,3 +209,14 @@ execute parent class method then we need use super().method name to access metho
 
 **Packages in Python
 -Package is collection of modules
+
+**Exception Handling
+-Exception is an event which will cause program termination
+-We handle exceptions using try-except block, else,finally
+-except block will only execute when exception occurred
+-else block will only execute if there is no exception occurred
+-else block should be only after all except block
+-finally block will always execute irrespective of exception occurred or not
+
+**File Handling
+-We can write,read and append data in text files
