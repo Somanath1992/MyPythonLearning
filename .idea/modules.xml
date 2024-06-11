@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MySeleniumLearning.iml" filepath="$PROJECT_DIR$/.idea/MySeleniumLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyPythonLearning.iml" filepath="$PROJECT_DIR$/.idea/MyPythonLearning.iml" />
     </modules>
   </component>
 </project>
