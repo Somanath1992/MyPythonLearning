@@ -12,5 +12,6 @@ module2.show()
 # Approach 2
 from module1 import *
 from module2 import *
+
 display()
 show()
